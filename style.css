@@ -1,0 +1,138 @@
+body{
+    margin: 0; 
+    padding: 0;
+    background: #193660;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    position: absolute;
+    width: 320px;
+    height: 420px;
+    left: 50%;
+    top: 55%;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+
+    color: #0A2142;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    background: #193660;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    background: #C4C4C4 ;
+    outline: none;
+    height: 40px;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: Playfair Display;
+    font-style: normal;
+    line-height: 27px;
+
+    color: darkgrey;
+    text-align: center;
+}
+
+.loginbox a:hover{
+    color: #193660;
+}
+
+/* HEADER */
+header{
+    background: #FFFFFF;
+    height: 50px;
+}
+
+#left-nav{
+    float: left;
+}
+
+#left-nav li{
+    display: inline-block;
+    margin: 10px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+color: #000000;
+}
+
+#right-nav{
+    float: right;
+}
+
+#right-nav li{
+    display: inline-block;
+    margin: 10px;
+    float: left;
+}
+
+footer{
+    position: relative;
+    height: 100px;
+    clear: both;
+    background-color: #FFFFFF;
+    margin-top: -100px;
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+
+}
+
+ul li a{
+    color: #193660;
+    text-decoration: none;
+}
+
